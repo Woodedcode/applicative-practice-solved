@@ -6,8 +6,6 @@ import { data } from "../data/data";
 
 export function getPlanetsWithMassValue(data, number) {
   // Your code goes here...
-  const massVal = data.planets.map(planets => Number(planets.mass.massValue >= 7))
-  return massVal
 }
 
 
